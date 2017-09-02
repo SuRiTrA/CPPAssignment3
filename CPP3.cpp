@@ -14,6 +14,6 @@ int main()
   else if(a<0)
     cout<<"\n \nThe number is negative";
   else
-    cout<<"The number is 0";
+    cout<<"The number is zero";
   return 0;
 }
