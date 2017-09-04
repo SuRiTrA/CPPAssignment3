@@ -17,7 +17,7 @@ int main()
   cin>>m;
   cout<<"\n \nEnter the marks in Biology(out of 100): ";
   cin>>b;
-  cout<<"\n \nEnter the marks in Computer(out of 100): ";#include <iostream>
+  cout<<"\n \nEnter the marks in Computer(out of 100): ";
   cin>>cp;
   per=(p+c+m+b+cp)/5;
   if(per>=90)
