@@ -5,12 +5,13 @@ using namespace std;
 
 int main()
 {
-  
+  cout<<"PROGRAM TO ACCEPT A NUMBER AND CONVERT IT IN WORDS \n \n";
   char a[10][10]={"ONE","TWO","THREE","FOUR","FIVE","SIX","SEVEN","EIGHT","NINE"};
   char b[10][10]={"ELEVEN","TWELVE","THIRTEEN","FOURTEEN","FIFTEEN","SIXTEEN","SEVENTEEN","EIGHTEEN","NINTEEN"};
   char c[10][10]={"TEN","TWENTY","THIRTY","FOURTY","FIFTY","SIXTY","SEVENTY","EIGHTY","NINTY"};
   int no,t,num;
-  cout<<" Enter any positive number(max 5 digits).\n";
+  cout<<"\n \nPROGRAM CAN PRINT NUMBERS FROM 1 TO 99999 \n \n";
+  cout<<"Enter any positive number(max 5 digits).\n";
   cin>>no;
   if(no<99999 && no>0)
   {  
