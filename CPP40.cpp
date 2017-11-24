@@ -42,9 +42,11 @@ int main()
          no=no%1000;
          cout<< a[t-1];
        }
+       cout<<" THOUSAND";
      }
+     
      no=no%1000;
-     cout<<" THOUSAND";
+     
      if(no>100)
      {
        t=no/100;
